@@ -1,0 +1,17 @@
+:root {
+    --sl-content-width: 50rem;
+    --sl-text-5xl: 3.5rem;
+  }
+
+ 
+.icon{
+  display: flex;
+  gap: 10px;
+}
+.facebook{
+  margin-top: 14px;
+}
+.image{
+  width: 100%;
+ border-radius: 40px;
+}

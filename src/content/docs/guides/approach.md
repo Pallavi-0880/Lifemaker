@@ -1,5 +1,6 @@
 ---
 
+
 title : Approach
 
 ---
@@ -36,3 +37,8 @@ Use online content to pass on the message and get people to initiate contact and
 - Put forward the first draft of vision, values, manifesto, policies and constitution for the undivided human society. [early 2020]. The working draft of the aims and objectives, as written in 2018, can be found here. The working draft of charter of values, drafted in November 2017, can be found here.
 - Develop and set up online infrastructure to help in relevant aspects of the social program for Self Governance. For ex. register as member individual, family, group from anywhere; study and understand from online content; discuss; network; collaborate; help, get help; local circular e-commerce; travel to member spaces and families for networking, experience & learning etc.
 - Incubate and establish from village councils to the world council and get the program going at global level. Collaborate between these teams to ensure success of local pilots.
+
+
+
+<Icon name="star" color="goldenrod" size="2rem" />
+<Icon name="rocket" color="var(--sl-color-text-accent)" />
