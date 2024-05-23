@@ -6,7 +6,9 @@
  .button-box{
   display: flex;
   gap: 30px;
-   justify-content: space-between;
+  justify-content: space-around;
+  align-items: center;
+  /* border: 1px solid black; */
  
  }
  .right-icon{
