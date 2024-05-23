@@ -5,9 +5,20 @@ template: splash
 
   
 ---
+import { LinkCard, CardGrid } from '@astrojs/starlight/components';
 
 
-***A happy, just and equitable society. Self realization, happiness, prosperity and relationships for everyone.*** 
+
+<div class= "button-box">
+   <div>
+      ***A happy, just and equitable society. <br/>Self realization, happiness,  <br/>prosperity and relationships for everyone.*** 
+   </div>
+   <div>
+      <CardGrid class="butn-card"> 
+            <LinkCard title="Get Start" href="/guides/example/" />
+      </CardGrid>
+   </div>
+</div>
  <div  class ="image">
  <img  src="https://scontent.fslv1-2.fna.fbcdn.net/v/t39.30808-6/310558717_467360725492435_4394510443019453496_n.png?_nc_cat=100&ccb=1-7&_nc_sid=5f2048&_nc_ohc=ZQ9uqEfeXUsQ7kNvgGhwKRT&_nc_ht=scontent.fslv1-2.fna&oh=00_AYBQsfHvJHF1JALwCkrL0IBMeB28o4VceoEVf5J6pVtG5w&oe=66540945" alt="Alt text for the image"/>
 
@@ -82,11 +93,12 @@ to see their work to completion. We want to see Humanity reach its full potentia
 
 import { Icon } from '@astrojs/starlight/components';
 
-<div class ="icon">
-<Icon class = "facebook" name="facebook"  color="black" size="3rem"  /> 
-<Icon name="instagram"  color="black" size="3rem"  />
-<Icon name="twitter" color="black" size="3rem"  />
-<Icon name="youtube"  color="black" size="3rem" />
-<Icon name="email" color="black" size="3rem"  />
+<div class ="icon-box">
+<a href="https://www.facebook.com/LifeMakerApp/"><Icon  name="facebook"  color="black" size="3rem"  /> </a>
+<a href=""><Icon name="instagram"  color="black" size="3rem"  /></a>
+<a href = "https://x.com/i/flow/login?redirect_after_login=%2FLifeMakerApp"><Icon name="x.com" color="black" size="3rem"  /></a>
+<a href = ""><Icon name="youtube"  color="black" size="3rem" /></a>
+<a href =""><Icon name="email" color="black" size="3rem"  /></a>
+
 </div>
 
