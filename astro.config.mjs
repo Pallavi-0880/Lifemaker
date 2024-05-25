@@ -33,7 +33,7 @@ export default defineConfig({
 				},
 				{
 					label: 'Pilot',
-					autogenerate: { directory: 'reference' },
+					autogenerate: { directory: 'pilot' },
 					
 				},
 			],

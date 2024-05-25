@@ -2,6 +2,9 @@
 title: Values
 
 ---
+
+
+
 ## This is the founding ground for human union
 
 To agree on same values of Life is the stepping stone to coming together for a grand party on Earth as one couple, family, team or undivided human society for justful, truthful & successful co-existence as humans.
