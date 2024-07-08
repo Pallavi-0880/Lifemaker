@@ -26,9 +26,14 @@ export default defineConfig({
 			sidebar: [
 				
 				{
-					label: 'Literature',
+					label: 'About',
 					autogenerate: { directory: 'guides' },
 					
+					
+				},
+				{
+					label: 'Literature',
+					autogenerate: { directory: 'literature' },
 					
 				},
 				{
