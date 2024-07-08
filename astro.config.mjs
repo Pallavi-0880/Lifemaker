@@ -10,32 +10,28 @@ export default defineConfig({
 			logo: {
 				src: './src/assets/logo.png',
 			  },
-			 
 			  components: {
 				// Override the default `SocialIcons` component.
 				SocialIcons: './src/component/pages.astro',
-				
-				
 			  },
 			  customCss: [
 				// Relative path to your custom CSS file
 				'./src/styles/custom.css',
 			  ],
-
-			
 			sidebar: [
-				
 				{
-					label: 'Literature',
+					label: 'About',
 					autogenerate: { directory: 'guides' },
-					
-					
+				},
+				{
+					label: 'literatures',
+					autogenerate: { directory: 'literature' },	
 				},
 				{
 					label: 'Pilot',
 					autogenerate: { directory: 'pilot' },
-					
 				},
+
 			],
 						
 		}),
