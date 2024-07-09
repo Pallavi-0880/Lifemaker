@@ -32,6 +32,11 @@ export default defineConfig({
 					
 				},
 				{
+					label: 'Literature',
+					autogenerate: { directory: 'literature' },
+					
+				},
+				{
 					label: 'Pilot',
 					autogenerate: { directory: 'pilot' },
 					
