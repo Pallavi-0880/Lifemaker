@@ -1,27 +1,15 @@
 ---
 
-import type { Props } from '@astrojs/starlight/props';
-import { Astronav, MenuIcon, OpenIcon, CloseIcon } from "astro-navbar";
+import type { Props } from '@astrojs/starlight/props'; 
+import { Icon } from '@astrojs/starlight/components'; 
 
- 
+const { labels } = Astro.props;
 ---
-<!-- <Astronav>
-  ...
-  <MenuIcon>
-    <OpenIcon>
-      <svg>...</svg>
-    </OpenIcon>
-    <CloseIcon>
-      <svg>...</svg>
-    </CloseIcon>
-  </MenuIcon>
-  ...
-  </Astronav> -->
 <a href="/guides/about">About</a>
 <a href="/pilot/pilot">Visit</a>
 <a href="/faq">FAQ</a>
 <a href="/guides/working">Working Model</a>
-
+<a href="/contact">Contact Us</a>
 
 
 
@@ -30,5 +18,12 @@ import { Astronav, MenuIcon, OpenIcon, CloseIcon } from "astro-navbar";
     text-decoration: none;
     color: black;
     font-weight: 700;
+	margin: 5px;
   }
+
 </style>
+
+
+
+
+

@@ -1,0 +1,81 @@
+---
+import type { Props } from '@astrojs/starlight/props';
+---
+
+<div class="hamburger-menu">
+	<input type="checkbox" id="menu-toggle">
+	<label for="menu-toggle" class="menu-icon">
+	  &#9776;
+	</label>
+	<nav class="menu">
+	  <ul>
+		<li><a href="/guides/about">About Us</a></li>
+		<li><a href="#visit">Offering</a></li>
+        <li><a href="#visit">Projects</a></li>
+        <li><a href="#visit">Contact Us</a></li>
+	  </ul>
+	</nav>
+  </div>
+
+<style>
+  
+  /* Basic styles for the hamburger icon and menu */
+.hamburger-menu {
+  position: relative;
+}
+input{
+	display: none;
+}
+.menu-icon {
+  display: block;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: var(--sl-color-white) ;/* Adjust the color as per Starlight theme */
+  background-color: var(--sl-color-black);
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.menu {
+  display: none;
+  position: absolute;
+  right: 0;
+  top: 100%;
+  background: rgb(60, 53, 53); /* Background color matching Starlight theme */
+  box-shadow: 0 0 10px rgba(13, 13, 13, 0.2);
+  border-radius: 5px;
+  padding: 1rem;
+  width: 130px;
+}
+
+.menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu ul li {
+  margin-bottom: 0.5rem;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: white; /* Adjust the color as per Starlight theme */
+  font-weight: 700;
+}
+
+/* Show the menu when the checkbox is checked */
+#menu-toggle:checked + .menu-icon + .menu {
+  display: block;
+}
+@media (min-width:800px){
+    .hamburger-menu{
+        display: none;
+    }
+}
+
+</style>

@@ -14,7 +14,7 @@ export default defineConfig({
 			  components: {
 				// Override the default `SocialIcons` component.
 				SocialIcons: './src/component/pages.astro',
-				
+				Search:'./src/component/Menu.astro',
 				
 			  },
 			  customCss: [
@@ -39,6 +39,16 @@ export default defineConfig({
 				{
 					label: 'Pilot',
 					autogenerate: { directory: 'pilot' },
+					
+				},
+				{
+					label: 'Offering',
+					autogenerate: { directory: 'offering' },
+					
+				},
+				{
+					label: 'Project',
+					autogenerate: { directory: 'project' },
 					
 				},
 			],

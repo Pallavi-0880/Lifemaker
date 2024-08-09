@@ -9,9 +9,22 @@
 .sl-container {
   /* Override the max-width property */
   max-width: none !important;
- 
-
 }
+select:where(.astro-4yphtoen) {
+  font-size: var(--sl-text-sm);
+  margin: 7px; 
+}
+/* .hamburger-menu:where(.astro-z7scpd3a) {
+  display: none !important;
+} */
+
+
+
+
+
+
+
+
 
 .image-container {
   position: relative; 
