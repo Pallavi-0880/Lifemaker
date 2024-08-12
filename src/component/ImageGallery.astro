@@ -1,0 +1,60 @@
+---
+import type { Props } from '@astrojs/starlight/props'; 
+---
+<div class="gallery-container">
+    <div class="image-wrapper">
+      <img id="gallery-image" src="/images/image1.jpg" alt="Gallery Image" />
+    </div>
+    <button class="gallery-btn left">&#10094;</button>
+    <button class="gallery-btn right">&#10095;</button>
+  </div>
+  
+  <style>
+    .gallery-container {
+      position: relative;
+      width: 100%;
+      max-width: 600px;
+      margin: auto;
+    }
+  
+    .image-wrapper {
+      width: 100%;
+      height: auto;
+      overflow: hidden;
+      border-radius: 10px;
+    }
+  
+    .image-wrapper img {
+      width: 100%;
+      height: auto;
+      display: block;
+      border-radius: 10px;
+    }
+  
+    .gallery-btn {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      background-color: rgba(0, 0, 0, 0.5);
+      color: white;
+      border: none;
+      padding: 10px;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+  
+    .gallery-btn.left {
+      left: 10px;
+    }
+  
+    .gallery-btn.right {
+      right: 10px;
+    }
+  
+    .gallery-btn:hover {
+      background-color: rgba(0, 0, 0, 0.7);
+    }
+  </style>
+  
+  
+  
