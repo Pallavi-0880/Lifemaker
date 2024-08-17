@@ -1,0 +1,56 @@
+---
+import "../styles/contact.css";
+import StarlightPage from "@astrojs/starlight/components/StarlightPage.astro";
+import '@fortawesome/fontawesome-free/css/all.min.css';
+---
+
+<StarlightPage frontmatter={{ title: "", template: "splash" }}>
+  <div class="contact-main-container">
+    <img
+      id="contact-page-img"
+      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQ1ipeQbFseUM_GzxwMoQj45w9HtAnu4eu5w&s"
+      alt=""
+    />
+    <div class="contact-container">
+      <div class="contact-form">
+        <h2 id="contact-page-heading">Have a Question?</h2>
+        <form>
+          <input type="text" name="name" placeholder="Your Name*" required />
+          <input
+            type="text"
+            name="contact"
+            placeholder="Contact No*"
+            required
+          />
+          <input type="email" name="email" placeholder="Email" required />
+          <input type="text" name="subject" placeholder="Subject" required />
+          <textarea name="details" placeholder="Details" required></textarea>
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+      <div id="contact-info">
+        <h2>Contact Us</h2>
+        <div class="info-box">
+          <p>
+            <i class="fa-solid fa-location-dot"></i><strong
+              >Lifemaker</strong
+            >
+          </p>
+          <p>Salig, Dharamshala(Himachal Pradesh)</p>
+          <p>
+            <i class="fas fa-phone-alt"></i>
+            <strong>Phone No.</strong> +91-11-46037088
+          </p>
+          <p>
+            <i class="fas fa-mobile-alt"></i>
+            <strong>Mobile No.</strong> +91-9882883272
+          </p>
+          <p>
+            <i class="fas fa-envelope"></i>
+            <strong>Email Us:</strong> lifemakerus@gmail.com
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</StarlightPage>

@@ -1,100 +1,130 @@
+.contact-main-container{
+  width:100%;
+  margin: auto;
+  /* border: 1px solid black; */
+}
 .contact-container {
-    width: 100%; 
-  }
-  .contact-container h1 {
-  color: yellowgreen;
-  text-align: center;  
-  font-size: 2.5rem;
-  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  gap: 20px;
+  /* border: 1px solid black; */
+}
+#contact-page-img{
+  width: 100%;
+  /* height: 300px; */
+  /* margin-top: 2rem; */
+}
+.contact-form,
+#contact-info {
+  flex: 1;
+  max-width: 700px; /* Adjust as needed */
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+   /* border: 1px solid black; */
+}
+#contact-info .info-box i {
+  background-color: #fff; /* Set background color to white */
+  color: #003366; /* Set icon color to dark blue */
+  border-radius: 70%; 
+  padding: 8px; /* Optional: Add padding for better appearance */
+  margin-right: 8px;
+  font-size: 15px; /* Adjust font size as needed */
+  
+}
+
+.contact-form {
+  background-color: #fff;
+}
+
+#contact-info {
+  background-color: #003366;
+  color: #fff;
+  margin-top: 0;
+  /* border: 1px solid rgb(198, 221, 46); */
+
+}
+#contact-page-heading{
+  font-size: 24px;
+}
+
+.contact-form h2,
+#contact-info h2 {
+  margin-bottom: 20px;
+ 
+}
+#contact-info h2 {
+  color: white;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: calc(100% - 20px); /* Adjust for padding */
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box; /* Ensure padding is included in width */
+}
+
+.contact-form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #e8491d;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.contact-form button:hover {
+  background-color: #d4381a;
+}
+
+#contact-info .info-box p {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+#contact-info .info-box strong {
+  font-weight: bold;
+  color: #dfdf07;
+}
+
+.info-box i {
+  margin-right: 8px;
+}
+
+
+
+@media only screen and (min-width: 768px) {
+  .contact-main-container{
+    width: 80%;
   }
   
-  .information-container h2 {
-    color: white;
-    font-size: 1rem; 
-    font-weight: bold;
-    text-shadow: 2px 2px 8px #000;
-    text-align: center;   
-    margin-top: 2rem;
+  #contact-info .info-box i {
+      background-color: #fff;
+      color: #003366;
+      border-radius: 50%;
+      padding: 12px;
+      margin-right: 6px;
+      font-size: 15px;
   }
-  
-  .information-container span {
-    color: yellowgreen;
+  #contact-page-img{
+    height: 600px;
   }
-  .information-container {
-    width: 100%;
-    background-color: #202025; 
-  }
-  
-  .contact-udyami {    
-    background-color: #202025;   
-    margin-top: 3rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    gap: 2rem;
-  }
-  
-  .contact-card {
-    background-color: #333;
-    color: white;
-    padding: 20px;
-    border-radius: 8px;   
-    width: 15rem;
-    height: 8rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    gap: 2rem;
-  }
-  
-  .contact-card i {
-    font-size: 2rem;
-    margin-bottom: 10px;
-    color: yellowgreen;
-  }
-  
-  .contact-card i:hover {
-    color: #ffffff; /* Change this to the color you want on hover */
-  }
-  
-  .contact-card span {
-    font-size: 1rem;
-    color: white;
-    text-align: center;
-  }
-  
-  @media (min-width: 764px) {
-  .contact-udyami {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  .contact-container {
     flex-direction: row;
-  }
-  .contact-container h1 {
-    font-size: 5rem;
-  }
-  .contact-card {
-    width: 17rem;
-    height: 15rem;
-  }
-  .contact-card i {
-    font-size: 2rem;
-  }
-  .contact-card span {
-    font-size: 1.3rem;
-  }
-  .text {
-    margin-top: 14rem;
-  }
-  .contact-container img {
-    height: 50rem;
-  }
-  .contact-container h2 {
-    font-size: 3rem; 
-  }
-  .contact-container h1 {
-    font-size: 4rem; 
-  }
-  }
+    align-items: stretch; /* Ensure equal height */
+}
+strong{
+  font-size: 20px;
+}
+#contact-info .info-box p{
+  padding: 13px;
+}
+
+}
