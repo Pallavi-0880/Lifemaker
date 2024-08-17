@@ -14,6 +14,8 @@ select:where(.astro-4yphtoen) {
   font-size: var(--sl-text-sm);
   margin: 7px; 
 }
+
+
 /* .hamburger-menu:where(.astro-z7scpd3a) {
   display: none !important;
 } */
@@ -66,7 +68,7 @@ select:where(.astro-4yphtoen) {
   position: absolute;
   top: 3%;
   color: white;
-  background-color: rgba(0, 0, 0, 0.5);
+  /* background-color: rgba(0, 0, 0, 0.5); */
   padding: 20px;
   text-align: left;
   display: flex;
@@ -207,10 +209,7 @@ select:where(.astro-4yphtoen) {
 }
 
 .gallery-grid {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 20px;
+   display: none;
 }
 
 #gallery-image {
@@ -416,6 +415,19 @@ select:where(.astro-4yphtoen) {
   }
   #fourth-overlay-btn{
     display: block;
+  }
+  .gallery-grid{
+    display: block;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  #gallery{
+    margin-top: 4%;
+  }
+  #gallery h1{
+    font-size: 54px;
   }
   
 }

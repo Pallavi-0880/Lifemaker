@@ -5,5 +5,5 @@ title: Literature
 
 The universal perspective of Existence as Co-existence, Self as Human and the working model of Undivided Society is greatly derived from, but not limited to, Madhyastha Darshan - a take at universal explanation of Existence in a human centric way and the solution to all human needs and problems.
 
-Natural Acceptance <br/>Am I Immortal <br/>Space <br/>Existence Is Coexistence <br/> Introduction by Ayush <br/>Who Am I
+[Natural Acceptance](/literature/naturalacceptance/) <br/>[Am I Immortal ](/literature/amimmortal/)<br/>[Space](/literature/space/) <br/>[Existence Is Coexistence](/existenceCoexixtence/) <br/> [Introduction by Ayush](/literature/naintroductionAyush/) <br/>[Who Am I](/literature/whoami/) 
 

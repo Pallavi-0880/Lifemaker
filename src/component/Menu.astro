@@ -1,9 +1,10 @@
 ---
 import type { Props } from '@astrojs/starlight/props';
-console.log(Astro.props)
+// console.log(Astro.props)
+const {hasSidebar} = Astro.props;
 ---
 
-<div class="hamburger-menu">
+<div class="hamburger-menu" style={hasSidebar?'display:none':''}>
 	<input type="checkbox" id="menu-toggle">
 	<label for="menu-toggle" class="menu-icon">
 	  &#9776;
@@ -11,8 +12,8 @@ console.log(Astro.props)
 	<nav class="menu">
 	  <ul>
 		<li><a href="/guides/about">About Us</a></li>
-		<li><a href="#visit">Offering</a></li>
-        <li><a href="#visit">Projects</a></li>
+		<li><a href="/offering/example">Offering</a></li>
+        <li><a href="/project/example">Projects</a></li>
         <li><a href="#visit">Contact Us</a></li>
 	  </ul>
 	</nav>
@@ -46,7 +47,7 @@ input{
   display: none;
   position: absolute;
   right: 0;
-  top: 100%;
+  top: 149%;
   background: rgb(60, 53, 53); /* Background color matching Starlight theme */
   box-shadow: 0 0 10px rgba(13, 13, 13, 0.2);
   border-radius: 5px;
